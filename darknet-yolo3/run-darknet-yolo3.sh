@@ -3,43 +3,26 @@
 CURRENT_DIR=$(pwd -P)
 WEIGHTS='yolov3.weights'
 CFG='cfg/yolov3.cfg'
-GPU=$(command -v nvcc >/dev/null && echo 1 || echo 0)
+TEST_DATASET='cfg/coco.data'
 
-function build_yolo {
-    if [ -e "darknet/darknet" ]; then
-        return
-    fi
-    git clone https://github.com/pjreddie/darknet
-    cd $CURRENT_DIR/darknet;
-    if [ $GPU -eq 1 ]; then
-	echo "Building with GPU"
-        sed -i 's/GPU=0/GPU=1/g' Makefile
-    fi
-    make -j 9
-    cd $CURRENT_DIR
-}
+source build-darknet.sh
 
 function prepare_yolo {
-    build_yolo
+    build_darknet
     cd $CURRENT_DIR/darknet;
     wget -nc https://pjreddie.com/media/files/yolov3.weights
     cd $CURRENT_DIR
 }
 
 function run_yolo {
-    if [ ! -e "darknet/darknet" ]; then
+    if [ ! -e "$CURRENT_DIR/darknet/darknet" ]; then
 	echo "Yolo executable not found"
         return
     fi
     mkdir predictions
-    local images=$(ls $1/*)
+    ls -1a $1/* > $CURRENT_DIR/validation.txt
     cd $CURRENT_DIR/darknet;
-    for image in $images;
-    do
-        ./darknet detect $CFG $WEIGHTS $image
-        name=$(basename $image)
-        mv predictions.jpg ../predictions/predictions_$name
-    done
+    ./darknet detector test $TEST_DATASET $CFG $WEIGHTS -dont_show -ext_output -out $CURRENT_DIR/result.json < $CURRENT_DIR/validation.txt
     cd $CURRENT_DIR
 }
 
