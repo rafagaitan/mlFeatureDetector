@@ -13,7 +13,11 @@ function prepare_training_files
     cat > $CURRENT_DIR/cfg/mlFeaturesDetector.names <<EOL
 $1
 EOL
-
+    cd $CURRENT_DIR
+    class_name=$(echo $1 | sed 's/_/ /g')
+    echo "Generating train bounding box files..."
+    python ./OIDv4_to_yolov3.py $OIDv4_ToolKit_DIR/OID/csv_folder "$class_name" "$CURRENT_DIR/OIDv4_ToolKit/OID/Dataset/train/$class_name"
+    echo "Train bounding box files generated."
 }
 
 function train_yolo {
@@ -22,7 +26,8 @@ function train_yolo {
         return
     fi
     CFG='$CURRENT_DIR/cfg/mlFeaturesDetector.cfg'
-    DATA='$CURRENT_DIR/cfg/$1.data'
+    DATA='$CURRENT_DIR/cfg/mlFeaturesDetector.data'
+
     cd $CURRENT_DIR/darknet;
     cd $CURRENT_DIR
 }
