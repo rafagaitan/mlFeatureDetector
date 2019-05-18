@@ -27,5 +27,4 @@ function build_darknet {
     cd $CURRENT_DIR
 }
 
-build_darknet
 
