@@ -52,12 +52,14 @@ def write_images_file( output_file, images_path):
 			name, ext = os.path.splitext(os.path.basename(filename))
 			file_train.write(os.path.join(images_path, name + '.jpg') + "\n")
 
-def generate_dataset( train_images_path, test_images_path, output_path ):
+def generate_dataset( train_images_path, test_images_path, validation_images_path, output_path ):
 	print("Generating train and test data files")
 	train_path = os.path.join(output_path,'train.txt')
 	test_path = os.path.join(output_path,'test.txt')
+	validation_path = os.path.join(output_path,'validation.txt')
 	write_images_file( train_path, train_images_path)
 	write_images_file( test_path, test_images_path)
+	write_images_file( validation_path, validation_images_path)
 
 def main():
 	parser = argparse.ArgumentParser(description='Process different image sets to Darknet Yolo-v3')
@@ -72,11 +74,13 @@ def main():
 	class_name = args.class_name.replace('_',' ')
 	train_images_path = os.path.join(args.path, os.path.normpath('Dataset/train/{}'.format(class_name)))
 	test_images_path = os.path.join(args.path, os.path.normpath('Dataset/test/{}'.format(class_name)))
+	validation_images_path = os.path.join(args.path, os.path.normpath('Dataset/validation/{}'.format(class_name)))
 
 	data_frame = get_image_metadata(class_name=class_name, csv_folder=csv_folder)
 	process_boundingboxes(data_frame=data_frame, images_path=train_images_path)
 	process_boundingboxes(data_frame=data_frame, images_path=test_images_path)
-	generate_dataset(train_images_path, test_images_path, args.config_output_path )
+	process_boundingboxes(data_frame=data_frame, images_path=validation_images_path)
+	generate_dataset(train_images_path, test_images_path, validation_images_path, args.config_output_path )
 
 if __name__ == "__main__":
     # execute only if run as a script

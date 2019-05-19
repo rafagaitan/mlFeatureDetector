@@ -31,7 +31,7 @@ function train_yolo {
 
     cd $CURRENT_DIR/darknet;
     echo "Starting training!"
-    ./darknet detector train $DATA $CFG darknet53.conv.74
+    ./darknet detector train $DATA $CFG $1 -map
     cd $CURRENT_DIR
 }
 
@@ -43,5 +43,5 @@ fi
 build_darknet
 download_images $1
 prepare_training_files $1
-train_yolo
+train_yolo $2
 cd $CURRENT_DIR

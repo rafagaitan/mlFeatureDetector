@@ -1,0 +1,189 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/2c0e54cb2dcad01d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.738762, "center_y":0.213170, "width":0.053566, "height":0.131024}, "confidence":0.995710}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.882364, "center_y":0.125403, "width":0.046208, "height":0.139914}, "confidence":0.992443}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.065592, "center_y":0.389025, "width":0.018539, "height":0.076980}, "confidence":0.938296}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.193724, "center_y":0.407488, "width":0.016785, "height":0.068969}, "confidence":0.901597}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/9c7e9f0b7713352b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.583279, "center_y":0.176856, "width":0.023429, "height":0.096588}, "confidence":0.987945}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.583813, "center_y":0.332434, "width":0.013376, "height":0.049527}, "confidence":0.986932}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.841345, "center_y":0.377294, "width":0.014818, "height":0.038699}, "confidence":0.985086}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.402069, "center_y":0.091115, "width":0.025190, "height":0.092768}, "confidence":0.978075}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.813131, "center_y":0.188102, "width":0.025963, "height":0.096374}, "confidence":0.975926}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.700257, "center_y":0.342855, "width":0.015045, "height":0.047761}, "confidence":0.972214}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.509092, "center_y":0.127803, "width":0.027248, "height":0.101864}, "confidence":0.953817}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.377251, "center_y":0.361620, "width":0.015654, "height":0.053947}, "confidence":0.949397}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.208717, "center_y":0.093138, "width":0.025735, "height":0.097564}, "confidence":0.932080}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.244008, "center_y":0.455898, "width":0.012511, "height":0.043047}, "confidence":0.920818}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.226393, "center_y":0.497236, "width":0.014267, "height":0.036834}, "confidence":0.869226}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.337934, "center_y":0.340242, "width":0.013887, "height":0.044493}, "confidence":0.801058}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.946455, "center_y":0.273404, "width":0.033231, "height":0.077385}, "confidence":0.726457}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.011032, "center_y":0.394737, "width":0.022727, "height":0.072274}, "confidence":0.523548}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.933374, "center_y":0.387573, "width":0.012060, "height":0.042159}, "confidence":0.429791}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.817407, "center_y":0.339514, "width":0.017015, "height":0.045316}, "confidence":0.334204}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/2e969144f13eb1dc.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.090679, "center_y":0.201257, "width":0.068719, "height":0.243236}, "confidence":0.989372}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.821654, "center_y":0.792020, "width":0.062906, "height":0.237313}, "confidence":0.876603}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/7f41370fa8018909.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.377171, "center_y":0.611361, "width":0.034631, "height":0.079757}, "confidence":0.973177}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.575899, "center_y":0.366383, "width":0.084705, "height":0.047166}, "confidence":0.832765}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.782355, "center_y":0.700334, "width":0.005477, "height":0.010157}, "confidence":0.282734}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/37be73f83c029f49.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.604687, "center_y":0.508917, "width":0.020811, "height":0.084069}, "confidence":0.789516}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.010463, "center_y":0.528350, "width":0.019038, "height":0.075580}, "confidence":0.787240}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.512904, "center_y":0.280027, "width":0.107638, "height":0.317388}, "confidence":0.751511}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.795275, "center_y":0.361342, "width":0.058726, "height":0.073194}, "confidence":0.717066}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.290398, "center_y":0.534454, "width":0.025755, "height":0.064585}, "confidence":0.603267}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.451159, "center_y":0.287505, "width":0.136596, "height":0.298966}, "confidence":0.483688}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/5b54678ebd8b8af3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.477008, "center_y":0.487750, "width":0.877930, "height":0.695798}, "confidence":0.999843}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/8d1e53413cd9c13f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.347027, "center_y":0.338722, "width":0.255856, "height":0.516052}, "confidence":0.999608}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.650249, "center_y":0.418362, "width":0.708815, "height":1.145055}, "confidence":0.527444}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/0660c06266751279.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.499085, "center_y":0.368088, "width":1.064557, "height":0.492622}, "confidence":0.999059}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.851073, "center_y":0.479752, "width":0.058480, "height":0.127150}, "confidence":0.412671}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/79445a6e49ee53b9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.493575, "center_y":0.352641, "width":0.035473, "height":0.057083}, "confidence":0.966048}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.485459, "center_y":0.160435, "width":0.040840, "height":0.135826}, "confidence":0.868430}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.963657, "center_y":0.186452, "width":0.030706, "height":0.078180}, "confidence":0.805934}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.994519, "center_y":0.162928, "width":0.015446, "height":0.121510}, "confidence":0.422821}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/644395d01b541528.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.712796, "center_y":0.413643, "width":0.231601, "height":0.690298}, "confidence":0.684477}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.516778, "center_y":0.551189, "width":0.143622, "height":0.384081}, "confidence":0.584376}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.028175, "center_y":0.045058, "width":0.058132, "height":0.086393}, "confidence":0.321716}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/d7deef955e16cc20.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.158317, "center_y":0.406854, "width":0.045701, "height":0.149407}, "confidence":0.971640}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.144661, "center_y":0.236477, "width":0.044277, "height":0.143311}, "confidence":0.947970}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.242622, "center_y":0.494741, "width":0.007252, "height":0.025064}, "confidence":0.799973}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.495373, "center_y":0.286810, "width":0.044801, "height":0.111859}, "confidence":0.784615}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.227237, "center_y":0.527726, "width":0.007242, "height":0.018383}, "confidence":0.771254}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.343226, "center_y":0.390700, "width":0.047345, "height":0.126068}, "confidence":0.638648}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.686517, "center_y":0.430232, "width":0.026017, "height":0.070911}, "confidence":0.387681}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.493846, "center_y":0.432714, "width":0.054176, "height":0.142948}, "confidence":0.320875}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/1858c0edbff1ae49.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.743972, "center_y":0.228506, "width":0.043941, "height":0.072922}, "confidence":0.998785}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.391995, "center_y":0.233493, "width":0.054602, "height":0.076632}, "confidence":0.991900}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.759426, "center_y":0.358618, "width":0.011193, "height":0.021339}, "confidence":0.908503}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.122903, "center_y":0.305408, "width":0.035237, "height":0.049859}, "confidence":0.835127}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.051220, "center_y":0.303752, "width":0.022622, "height":0.047644}, "confidence":0.739677}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.484453, "center_y":0.456482, "width":0.006313, "height":0.007579}, "confidence":0.610441}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.363319, "center_y":0.412035, "width":0.007420, "height":0.019400}, "confidence":0.546460}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.064637, "center_y":0.303482, "width":0.032960, "height":0.057298}, "confidence":0.274091}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.331467, "center_y":0.397921, "width":0.011034, "height":0.028980}, "confidence":0.262830}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/acceb61fd5fd7294.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.275646, "center_y":0.055182, "width":0.066715, "height":0.109248}, "confidence":0.999173}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.583251, "center_y":0.042943, "width":0.069587, "height":0.086468}, "confidence":0.847062}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/ee267b62fd17a9b1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.901537, "center_y":0.443253, "width":0.127730, "height":0.339411}, "confidence":0.999527}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.070791, "center_y":0.471431, "width":0.126907, "height":0.328041}, "confidence":0.996574}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/5e0a138b32ed3dbf.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.557804, "center_y":0.237346, "width":0.071081, "height":0.116201}, "confidence":0.998845}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.808870, "center_y":0.247800, "width":0.040389, "height":0.103954}, "confidence":0.967076}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.301137, "center_y":0.602469, "width":0.036603, "height":0.059576}, "confidence":0.303413}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/71c3eb3687efa946.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.429828, "center_y":0.879898, "width":0.291117, "height":0.197273}, "confidence":0.988479}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.206535, "center_y":0.213801, "width":0.194699, "height":0.384495}, "confidence":0.576149}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/ad9a8dc4642fc95f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.547537, "center_y":0.436929, "width":0.072341, "height":0.104355}, "confidence":0.864062}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.364187, "center_y":0.408967, "width":0.204880, "height":0.213148}, "confidence":0.860029}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.667307, "center_y":0.500539, "width":0.233944, "height":0.220529}, "confidence":0.730585}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.396233, "center_y":0.680330, "width":0.123989, "height":0.206403}, "confidence":0.412218}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"/home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/OIDv4_ToolKit/OID/Dataset/validation/Traffic light/c7b1e6f7c38fa1a0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.071233, "center_y":0.089813, "width":0.060621, "height":0.154140}, "confidence":0.999932}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.382903, "center_y":0.089820, "width":0.058983, "height":0.153429}, "confidence":0.999834}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.891718, "center_y":0.426580, "width":0.056339, "height":0.158024}, "confidence":0.997803}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.899154, "center_y":0.582567, "width":0.046657, "height":0.052716}, "confidence":0.996876}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.627166, "center_y":0.623540, "width":0.011509, "height":0.013191}, "confidence":0.563440}, 
+  {"class_id":0, "name":"Traffic_light", "relative_coordinates":{"center_x":0.767368, "center_y":0.630397, "width":0.009201, "height":0.028079}, "confidence":0.298526}
+ ] 
+}
+]
