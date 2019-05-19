@@ -16,8 +16,8 @@ EOL
     cd $CURRENT_DIR
     class_name=$(echo $1 | sed 's/_/ /g')
     echo "Generating train bounding box files..."
-    python ./OIDv4_to_yolov3.py $OIDv4_ToolKit_DIR/OID/csv_folder "$class_name" "$CURRENT_DIR/OIDv4_ToolKit/OID/Dataset/train/$class_name"
-    echo "Train bounding box files generated."
+    python mlFeaturesDetector/process_data.py "$class_name" "$OIDv4_ToolKit_DIR/OID/" -c "$CURRENT_DIR/cfg"
+    echo "Bounding box files and data for training and test generated."
 }
 
 function train_yolo {
