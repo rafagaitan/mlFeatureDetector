@@ -18,6 +18,7 @@ EOL
     echo "Generating train bounding box files..."
     python mlFeaturesDetector/process_data.py "$class_name" "$OIDv4_ToolKit_DIR/OID/" -c "$CURRENT_DIR/cfg"
     echo "Bounding box files and data for training and test generated."
+    wget -P $CURRENT_DIR/darknet -nc https://pjreddie.com/media/files/darknet53.conv.74 
 }
 
 function train_yolo {
@@ -25,10 +26,12 @@ function train_yolo {
 	echo "Yolo executable not found"
         return
     fi
-    CFG='$CURRENT_DIR/cfg/mlFeaturesDetector.cfg'
-    DATA='$CURRENT_DIR/cfg/mlFeaturesDetector.data'
+    CFG="$CURRENT_DIR/cfg/mlFeaturesDetector.cfg"
+    DATA="$CURRENT_DIR/cfg/mlFeaturesDetector.data"
 
     cd $CURRENT_DIR/darknet;
+    echo "Starting training!"
+    ./darknet detector train $DATA $CFG darknet53.conv.74
     cd $CURRENT_DIR
 }
 
@@ -40,4 +43,5 @@ fi
 build_darknet
 download_images $1
 prepare_training_files $1
+train_yolo
 cd $CURRENT_DIR
