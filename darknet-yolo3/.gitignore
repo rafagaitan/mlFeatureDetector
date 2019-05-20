@@ -8,3 +8,4 @@ cfg/train.txt
 cfg/test.txt
 cfg/validation.txt
 .vscode
+predictions.jpg
