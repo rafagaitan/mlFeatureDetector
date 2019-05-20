@@ -1,4 +1,10 @@
 validation.txt
+validation-panorama.txt
 result.json
 OIDv4_ToolKit/
 cfg/*.names
+cfg/backup/
+cfg/train.txt
+cfg/test.txt
+cfg/validation.txt
+.vscode

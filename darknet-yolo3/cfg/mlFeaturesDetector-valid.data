@@ -1,0 +1,5 @@
+classes= 1
+train  = /home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/cfg/train.txt
+valid  = /home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/cfg/validation.txt
+names =  /home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/cfg/mlFeaturesDetector.names
+backup = /home/rgaitan/Projects/mlFeatureDetector/darknet-yolo3/cfg/backup

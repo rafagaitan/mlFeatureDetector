@@ -21,10 +21,10 @@ def write_yolov3_txt_file(txt_df, output_txt_path):
 	print("Writting bbox file:{}".format(output_txt_path))
 	txt_df.to_csv(output_txt_path, index=False, header=False, sep=' ')
 
-def get_image_metadata(class_name, csv_folder):
+def get_image_metadata(class_name, csv_folder, dataset):
 	class_id = get_class_id( class_name, csv_folder )
 
-	train_csv_path=os.path.join(csv_folder, OIDV4_TRAIN)
+	train_csv_path=os.path.join(csv_folder, dataset)
 	df = pd.read_csv(train_csv_path)
 	# Select only the input class id and select a few values
 	selected_data = pd.DataFrame(df.loc[df['LabelName'] == class_id][['ImageID','XMin','XMax','YMin','YMax']])
@@ -76,10 +76,12 @@ def main():
 	test_images_path = os.path.join(args.path, os.path.normpath('Dataset/test/{}'.format(class_name)))
 	validation_images_path = os.path.join(args.path, os.path.normpath('Dataset/validation/{}'.format(class_name)))
 
-	data_frame = get_image_metadata(class_name=class_name, csv_folder=csv_folder)
-	process_boundingboxes(data_frame=data_frame, images_path=train_images_path)
-	process_boundingboxes(data_frame=data_frame, images_path=test_images_path)
-	process_boundingboxes(data_frame=data_frame, images_path=validation_images_path)
+	train_data_frame = get_image_metadata(class_name=class_name, csv_folder=csv_folder, dataset = OIDV4_TRAIN)
+	test_data_frame = get_image_metadata(class_name=class_name, csv_folder=csv_folder, dataset = OIDV4_TEST)
+	validation_data_frame = get_image_metadata(class_name=class_name, csv_folder=csv_folder, dataset = OIDV4_VALIDATION)
+	process_boundingboxes(data_frame=train_data_frame, images_path=train_images_path)
+	process_boundingboxes(data_frame=test_data_frame, images_path=test_images_path)
+	process_boundingboxes(data_frame=validation_data_frame, images_path=validation_images_path)
 	generate_dataset(train_images_path, test_images_path, validation_images_path, args.config_output_path )
 
 if __name__ == "__main__":

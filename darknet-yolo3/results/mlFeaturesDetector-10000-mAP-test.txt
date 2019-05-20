@@ -1,0 +1,18 @@
+
+ seen 64 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 726, unique_truth_count = 131  
+ rank = 0 of ranks = 726  rank = 100 of ranks = 726  rank = 200 of ranks = 726  rank = 300 of ranks = 726  rank = 400 of ranks = 726  rank = 500 of ranks = 726  rank = 600 of ranks = 726  rank = 700 of ranks = 726 class_id = 0, name = Traffic light, ap = 71.30%   	 (TP = 104, FP = 83) 
+
+ for thresh = 0.25, precision = 0.56, recall = 0.79, F1-score = 0.65 
+ for thresh = 0.25, TP = 104, FP = 83, FN = 27, average IoU = 42.13 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.712964, or 71.30 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
